@@ -1,5 +1,5 @@
+// import './Settings.css';
 import React, {ReactNode} from 'react';
-import './Settings.css';
 
 type SettingsProps = {
     isOpen: boolean,

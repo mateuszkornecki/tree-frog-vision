@@ -1,5 +1,5 @@
+// import './Pointer.css';
 import React, {AnimationEvent, useEffect, useState} from 'react';
-import './Pointer.css';
 
 type TPointerSize = 'tiny' | 'regular' | 'large';
 type TDirectionMode = 'modeCL' | 'modeLC' | 'modeCR'| 'modeRC';
@@ -48,4 +48,4 @@ function Pointer({ color, directionMode}: TPointerProps) {
 }
 
 export default Pointer;
-export {TDirectionMode}
+export type {TDirectionMode}
