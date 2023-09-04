@@ -3,7 +3,7 @@ import Pointer from "../Pointer";
 import useTheme from "../../hooks/useTheme";
 
 function App() {
-    const {theme} = useTheme();
+    const {theme,changeToRandomTheme} = useTheme();
 
 
     return (
@@ -14,6 +14,7 @@ function App() {
                 paused={false}
                 size={'tiny'}
                 freezeAndCenter={false}
+                onClick={changeToRandomTheme}
             />
         </div>
   );
