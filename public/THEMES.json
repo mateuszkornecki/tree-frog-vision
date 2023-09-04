@@ -1,3 +1,3 @@
-[{"pointer": "black", "background": "#f1c421"},
-{"pointer": "white", "background": "black"}
+[{"name": "default","pointer": "black", "background": "#f1c421"},
+{"name": "bw","pointer": "white", "background": "black"}
 ]
