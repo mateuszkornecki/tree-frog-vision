@@ -4,7 +4,7 @@ type TPointerSize = 'tiny' | 'regular' | 'large';
 type TDirectionMode = 'modeCL' | 'modeLC' | 'modeCR'| 'modeRC';
 
 type TPointerProps = {
-  onClick: () => {}
+  onClick?: () => void
   paused: boolean,
   freezeAndCenter: boolean,
   color: string,
