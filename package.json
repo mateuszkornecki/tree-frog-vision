@@ -49,6 +49,7 @@
   "devDependencies": {
     "@types/tinycolor2": "^1.4.3",
     "eslint": "^8.48.0",
+    "eslint-config-next": "^13.4.19",
     "eslint-config-react-app": "^7.0.1"
   }
 }
