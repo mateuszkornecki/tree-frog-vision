@@ -1,4 +1,3 @@
-// import './Pointer.css';
 import React, {AnimationEvent, useEffect, useState} from 'react';
 
 type TPointerSize = 'tiny' | 'regular' | 'large';

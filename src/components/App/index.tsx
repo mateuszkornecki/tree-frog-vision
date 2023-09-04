@@ -1,4 +1,3 @@
-// import './App.css';
 import React from "react";
 import Pointer from "../Pointer";
 import useTheme from "../../hooks/useTheme";

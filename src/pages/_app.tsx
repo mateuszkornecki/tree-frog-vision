@@ -1,6 +1,5 @@
 import '../index.css'
 import '../components/App/App.css'
-import '../components/Settings/Settings.css'
 import '../components/Pointer/Pointer.css'
 import Head from 'next/head'
 
