@@ -4,6 +4,7 @@ type TPointerSize = 'tiny' | 'regular' | 'large';
 type TDirectionMode = 'modeCL' | 'modeLC' | 'modeCR'| 'modeRC';
 
 type TPointerProps = {
+  onClick: () => {}
   paused: boolean,
   freezeAndCenter: boolean,
   color: string,
@@ -11,7 +12,7 @@ type TPointerProps = {
   directionMode: TDirectionMode,
 }
 
-function Pointer({ color, directionMode}: TPointerProps) {
+function Pointer({ color, directionMode, onClick}: TPointerProps) {
   const [mode, setMode] = useState<TDirectionMode>(directionMode);
 
   const pointerStyles = {
@@ -43,6 +44,7 @@ function Pointer({ color, directionMode}: TPointerProps) {
       className={"Pointer animatePointer"}
       style={pointerStyles}
       onAnimationEnd={handleAnimationEnd}
+      onClick={onClick}
   />
 }
 
